@@ -19,6 +19,23 @@ A simple package categorization system that sorts packages into STANDARD, SPECIA
 **Bulky**: Volume ≥ 1,000,000 cm³ OR any dimension ≥ 150 cm  
 **Heavy**: Mass ≥ 20 kg
 
+## Setup
+
+This project uses [uv](https://docs.astral.sh/uv/) for Python package management.
+
+### Install uv
+
+```bash
+# macOS/Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+
+# Or with pip
+pip install uv
+```
+
 ## Usage
 
 ```python
